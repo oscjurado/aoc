@@ -1,7 +1,7 @@
 import os
 
 with open("input.txt") as file:
-    input = [line.strip() for line in file]
+    input = file.readline()
 
 ranges = []
 nums = []
